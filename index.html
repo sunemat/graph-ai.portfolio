@@ -1,9 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-      <script src="https://cdn.botpress.cloud/webchat/v3.6/inject.js"></script>
-<script src="https://files.bpcontent.cloud/2026/05/31/17/20260531173823-F4UCKN4R.js" defer></script>
-        <meta charset="UTF-8">
+    <script src="https://cdn.botpress.cloud/webchat/v3.6/inject.js"></script>
+    <script src="https://files.bpcontent.cloud/2026/05/31/17/20260531173823-F4UCKN4R.js" defer></script>
+    <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sunema Talapusi | Generative AI Portfolio</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -342,6 +342,22 @@
             color: var(--gray);
         }
 
+        /* Consultation Section Style */
+        .form-container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 100%;
+            background: #FFFFFF;
+            padding: 2rem;
+            border: 1px solid #E5E7EB;
+            box-shadow: var(--shadow-sm);
+        }
+
+        .form-container iframe {
+            max-width: 100%;
+        }
+
         /* Footer */
         footer {
             background: #111111;
@@ -363,12 +379,12 @@
             .section-header h2 { font-size: 1.75rem; }
             .nav-top .logo { font-size: 1.5rem; }
             .hero-avatar { width: 120px; height: 120px; }
+            .form-container { padding: 1rem 0; border: none; box-shadow: none; }
         }
     </style>
 </head>
 <body>
 
-    <!-- Navigation -->
     <nav>
         <div class="nav-top">
             <div class="container logo">SUNEMA TALAPUSI</div>
@@ -378,11 +394,11 @@
                 <a href="#about">Overview</a>
                 <a href="#course">Course Modules</a>
                 <a href="#submissions" class="active">Work Submissions</a>
+                <a href="#consultation">Consultation</a>
             </div>
         </div>
     </nav>
 
-    <!-- Hero Section -->
     <section class="hero">
         <div class="container">
             <div class="hero-content">
@@ -396,7 +412,6 @@
         </div>
     </section>
 
-    <!-- About Section -->
     <section id="about">
         <div class="container">
             <div class="section-header">
@@ -425,7 +440,6 @@
         </div>
     </section>
 
-    <!-- Course Section -->
     <section id="course" class="course-bg">
         <div class="container">
             <div class="section-header">
@@ -466,7 +480,6 @@
         </div>
     </section>
 
-    <!-- Submissions Section -->
     <section id="submissions">
         <div class="container">
             <div class="section-header">
@@ -478,8 +491,7 @@
                     <div class="submission-icon">🌐</div>
                     <h3>Module 1</h3>
                     <p>Web Infrastructure</p>
-                 <!--   <span class="submission-status">Awaiting Link</span> -->
-                </a>
+                 </a>
                 
                 <a href="https://github.com/sunemat/graph-ai.portfolio/blob/main/WK%202%20Assignment_SunemaT.pdf" class="submission-card" target="_blank" rel="noopener noreferrer">
                     <div class="submission-icon">📊</div>
@@ -520,7 +532,17 @@
         </div>
     </section>
 
-    <!-- Footer -->
+    <section id="consultation" class="course-bg">
+        <div class="container">
+            <div class="section-header">
+                <h2>Contact for Consultation</h2>
+            </div>
+            <div class="form-container">
+                <iframe src="https://docs.google.com/forms/d/e/1FAIpQLScYc9H_Nq6ZkS6HyrfnL_xr2-J7JH8ntbwfteoGl9np_prTqA/viewform?embedded=true" width="640" height="778" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+            </div>
+        </div>
+    </section>
+
     <footer>
         <div class="container">
             <p>SUNEMA TALAPUSI &bull; UC DAVIS STUDENT PORTFOLIO &bull; 2026</p>
